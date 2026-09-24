@@ -1,0 +1,610 @@
+[
+  {
+    "id": "shinjinseo-1",
+    "category": "pro",
+    "featured": "신진서",
+    "file": "pro/shinjinseo-1.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2026-06-25",
+    "black": {
+      "name": "Byun Sangil",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Shin Jinseo",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "shinjinseo-2",
+    "category": "pro",
+    "featured": "신진서",
+    "file": "pro/shinjinseo-2.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-06-23",
+    "black": {
+      "name": "Shin Jinseo",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Byun Sangil",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "shinjinseo-3",
+    "category": "pro",
+    "featured": "신진서",
+    "file": "pro/shinjinseo-3.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2026-06-22",
+    "black": {
+      "name": "Byun Sangil",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Shin Jinseo",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "shinjinseo-4",
+    "category": "pro",
+    "featured": "신진서",
+    "file": "pro/shinjinseo-4.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-06-11",
+    "black": {
+      "name": "Shin Jinseo",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Ding Hao",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "shinjinseo-5",
+    "category": "pro",
+    "featured": "신진서",
+    "file": "pro/shinjinseo-5.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-06-10",
+    "black": {
+      "name": "Shin Jinseo",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Li Weiqing",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "shinjinseo-6",
+    "category": "pro",
+    "featured": "신진서",
+    "file": "pro/shinjinseo-6.sgf",
+    "handicap": 0,
+    "komi": 3.75,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-05-23",
+    "black": {
+      "name": "Shin Jinseo",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Liao Yuanhe",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "shinjinseo-7",
+    "category": "pro",
+    "featured": "신진서",
+    "file": "pro/shinjinseo-7.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2026-05-07",
+    "black": {
+      "name": "Shin Jinseo",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Hong Seongji",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "shinjinseo-8",
+    "category": "pro",
+    "featured": "신진서",
+    "file": "pro/shinjinseo-8.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2026-04-22",
+    "black": {
+      "name": "Park Minkyu",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Shin Jinseo",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leesedol-1",
+    "category": "pro",
+    "featured": "이세돌",
+    "file": "pro/leesedol-1.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "8.5 points",
+    "winner": "W",
+    "ended": "2019-07-16",
+    "black": {
+      "name": "Kim Daeyoung",
+      "rank": "6단"
+    },
+    "white": {
+      "name": "Lee Sedol",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leesedol-2",
+    "category": "pro",
+    "featured": "이세돌",
+    "file": "pro/leesedol-2.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2019-07-04",
+    "black": {
+      "name": "Wang Zejin",
+      "rank": "6단"
+    },
+    "white": {
+      "name": "Lee Sedol",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leesedol-3",
+    "category": "pro",
+    "featured": "이세돌",
+    "file": "pro/leesedol-3.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2019-07-03",
+    "black": {
+      "name": "Wang Lei (b)",
+      "rank": "8단"
+    },
+    "white": {
+      "name": "Lee Sedol",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leesedol-4",
+    "category": "pro",
+    "featured": "이세돌",
+    "file": "pro/leesedol-4.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2019-05-20",
+    "black": {
+      "name": "Kang Dongyun",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Lee Sedol",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leesedol-5",
+    "category": "pro",
+    "featured": "이세돌",
+    "file": "pro/leesedol-5.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2019-04-11",
+    "black": {
+      "name": "Lee Hoseong",
+      "rank": "3단"
+    },
+    "white": {
+      "name": "Lee Sedol",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leesedol-6",
+    "category": "pro",
+    "featured": "이세돌",
+    "file": "pro/leesedol-6.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2019-04-02",
+    "black": {
+      "name": "Lee Sedol",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Chen Xian",
+      "rank": "6단"
+    }
+  },
+  {
+    "id": "leesedol-7",
+    "category": "pro",
+    "featured": "이세돌",
+    "file": "pro/leesedol-7.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2019-03-14",
+    "black": {
+      "name": "Mok Jinseok",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Lee Sedol",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leesedol-8",
+    "category": "pro",
+    "featured": "이세돌",
+    "file": "pro/leesedol-8.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2019-03-12",
+    "black": {
+      "name": "Lee Sedol",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Lee Donghoon",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leechangho-1",
+    "category": "pro",
+    "featured": "이창호",
+    "file": "pro/leechangho-1.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-04-25",
+    "black": {
+      "name": "Mok Jinseok",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leechangho-2",
+    "category": "pro",
+    "featured": "이창호",
+    "file": "pro/leechangho-2.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "1.5 points",
+    "winner": "B",
+    "ended": "2026-04-24",
+    "black": {
+      "name": "Choi Myeonghun",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leechangho-3",
+    "category": "pro",
+    "featured": "이창호",
+    "file": "pro/leechangho-3.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-04-22",
+    "black": {
+      "name": "Kim Yeongsam",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leechangho-4",
+    "category": "pro",
+    "featured": "이창호",
+    "file": "pro/leechangho-4.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "2.5 points",
+    "winner": "W",
+    "ended": "2026-03-19",
+    "black": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Kim Cheayoung",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leechangho-5",
+    "category": "pro",
+    "featured": "이창호",
+    "file": "pro/leechangho-5.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2026-02-27",
+    "black": {
+      "name": "Kim Seungjun",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leechangho-6",
+    "category": "pro",
+    "featured": "이창호",
+    "file": "pro/leechangho-6.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2026-02-24",
+    "black": {
+      "name": "Park Jinsol",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leechangho-7",
+    "category": "pro",
+    "featured": "이창호",
+    "file": "pro/leechangho-7.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-02-12",
+    "black": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Han Chongjin",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "leechangho-8",
+    "category": "pro",
+    "featured": "이창호",
+    "file": "pro/leechangho-8.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "3.5 points",
+    "winner": "W",
+    "ended": "2026-01-09",
+    "black": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Choi Jeong",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "chohoonhyun-1",
+    "category": "pro",
+    "featured": "조훈현",
+    "file": "pro/chohoonhyun-1.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2025-11-17",
+    "black": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Cho Hunhyun",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "chohoonhyun-2",
+    "category": "pro",
+    "featured": "조훈현",
+    "file": "pro/chohoonhyun-2.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2025-10-06",
+    "black": {
+      "name": "Lee Changho",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Cho Hunhyun",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "chohoonhyun-3",
+    "category": "pro",
+    "featured": "조훈현",
+    "file": "pro/chohoonhyun-3.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2025-09-13",
+    "black": {
+      "name": "Cho Hunhyun",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Lee Hyeonwuk",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "chohoonhyun-4",
+    "category": "pro",
+    "featured": "조훈현",
+    "file": "pro/chohoonhyun-4.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2025-09-13",
+    "black": {
+      "name": "Han Chongjin",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Cho Hunhyun",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "chohoonhyun-5",
+    "category": "pro",
+    "featured": "조훈현",
+    "file": "pro/chohoonhyun-5.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2025-09-08",
+    "black": {
+      "name": "Rui Naiwei",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Cho Hunhyun",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "chohoonhyun-6",
+    "category": "pro",
+    "featured": "조훈현",
+    "file": "pro/chohoonhyun-6.sgf",
+    "handicap": 0,
+    "komi": 6.5,
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2025-06-06",
+    "black": {
+      "name": "Zhou Heyang",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Cho Hunhyun",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "chohoonhyun-7",
+    "category": "pro",
+    "featured": "조훈현",
+    "file": "pro/chohoonhyun-7.sgf",
+    "handicap": 0,
+    "komi": 3.75,
+    "outcome": "0.02 points",
+    "winner": "B",
+    "ended": "2025-02-28",
+    "black": {
+      "name": "Cho Hunhyun",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Takemiya Masaki",
+      "rank": "9단"
+    }
+  },
+  {
+    "id": "chohoonhyun-8",
+    "category": "pro",
+    "featured": "조훈현",
+    "file": "pro/chohoonhyun-8.sgf",
+    "handicap": 0,
+    "komi": 3.75,
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2025-02-26",
+    "black": {
+      "name": "Takemiya Masaki",
+      "rank": "9단"
+    },
+    "white": {
+      "name": "Cho Hunhyun",
+      "rank": "9단"
+    }
+  }
+]
