@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { KifuEntry } from "./types";
 import { fetchKifuIndex, fetchProIndex } from "./lib/api";
 import { KifuList } from "./components/KifuList";
@@ -7,6 +7,33 @@ import { LiveSearch } from "./components/LiveSearch";
 import { Viewer } from "./components/Viewer";
 
 type Mode = "kyu" | "pro" | "live";
+
+/* 화면 전환 페이드 — 나가는 화면이 사라진 뒤 들어오는 화면이 나타남 */
+function FadeView({ k, children }: { k: string; children: ReactNode }) {
+  const [current, setCurrent] = useState<{ k: string; children: ReactNode }>({
+    k,
+    children,
+  });
+  const [leaving, setLeaving] = useState(false);
+  const latest = useRef({ k, children });
+  latest.current = { k, children };
+
+  useEffect(() => {
+    if (k === current.k) return;
+    setLeaving(true);
+    const t = setTimeout(() => {
+      setCurrent(latest.current);
+      setLeaving(false);
+    }, 300);
+    return () => clearTimeout(t);
+  }, [k, current.k]);
+
+  return (
+    <div className={`view-fade ${leaving ? "view-fade-out" : ""}`}>
+      {k === current.k && !leaving ? children : current.children}
+    </div>
+  );
+}
 
 export default function App() {
   const [entries, setEntries] = useState<KifuEntry[] | null>(null);
@@ -64,14 +91,10 @@ export default function App() {
 
   const kyuEntries = entries?.filter((e) => e.category !== "pro") ?? null;
   const proEntries = entries?.filter((e) => e.category === "pro") ?? null;
+  const viewKey = selected ? `v-${selected.id}` : `m-${mode}`;
 
   return (
     <div className="app">
-      <header className="header">
-        <h1>진우 바둑 기보 공부방</h1>
-        <p className="subtitle">급수별·프로 실전 기보를 한 수씩 따라가며 공부하세요</p>
-      </header>
-
       <div className="mode-tabs">
         <button
           className={`mode-tab ${mode === "kyu" ? "active" : ""}`}
@@ -95,17 +118,19 @@ export default function App() {
 
       <main>
         {error && <p className="error">{error}</p>}
-        {!error && entries == null && <p className="loading">불러오는 중…</p>}
-        {entries != null &&
-          (selected ? (
-            <Viewer key={selected.id} entry={selected} onBack={closeKifu} />
-          ) : mode === "kyu" ? (
-            kyuEntries && <KifuList entries={kyuEntries} onOpen={openKifu} />
-          ) : mode === "pro" ? (
-            <ProKifuList entries={proEntries ?? []} onOpen={openKifu} />
-          ) : (
-            <LiveSearch onOpen={openKifu} />
-          ))}
+        <FadeView k={viewKey}>
+          {!error && entries == null && <p className="loading">불러오는 중…</p>}
+          {entries != null &&
+            (selected ? (
+              <Viewer key={selected.id} entry={selected} onBack={closeKifu} />
+            ) : mode === "kyu" ? (
+              kyuEntries && <KifuList entries={kyuEntries} onOpen={openKifu} />
+            ) : mode === "pro" ? (
+              <ProKifuList entries={proEntries ?? []} onOpen={openKifu} />
+            ) : (
+              <LiveSearch onOpen={openKifu} />
+            ))}
+        </FadeView>
       </main>
 
       <footer className="footer">

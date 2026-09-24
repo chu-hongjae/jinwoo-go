@@ -30,7 +30,7 @@ export function Viewer({ entry, onBack }: ViewerProps) {
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1.5); // 초/수
   const [showCoords, setShowCoords] = useState(true);
-  const [showNumbers, setShowNumbers] = useState(false);
+  const [showNumbers, setShowNumbers] = useState(true); // 진입 시 자동 표시
 
   useEffect(() => {
     let cancelled = false;
@@ -58,6 +58,12 @@ export function Viewer({ entry, onBack }: ViewerProps) {
   const parseError = sgfSrc != null && game == null;
 
   const totalMoves = game?.moves.length ?? 0;
+
+  // 기보 로드가 끝나면 자동재생 시작
+  // (초기 playing=true로 하면 SGF 로딩 전 totalMoves=0이라 타이머가 먼저 회로차단된다)
+  useEffect(() => {
+    if (game) setPlaying(true);
+  }, [game]);
 
   const go = useCallback(
     (delta: number) => {
@@ -109,6 +115,22 @@ export function Viewer({ entry, onBack }: ViewerProps) {
     [game, moveIndex]
   );
 
+  // 모바일 스와이프 — 좌: 다음 수, 우: 이전 수 (슬라이더/버튼 위에서 시작하면 무시)
+  const touchStartX = useRef<number | null>(null);
+  const onSwipeStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+  const onSwipeEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current == null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX.current;
+    touchStartX.current = null;
+    if ((e.target as HTMLElement).closest("input, button, label")) return;
+    if (Math.abs(dx) > 48) {
+      setPlaying(false);
+      go(dx < 0 ? 1 : -1);
+    }
+  };
+
   const loadFailed = loadError != null;
   if (loadFailed || parseError) {
     return (
@@ -133,7 +155,12 @@ export function Viewer({ entry, onBack }: ViewerProps) {
       </div>
 
       <div className="viewer-body">
-        <div className="board-area">
+        <div
+          className="board-area"
+          style={{ touchAction: "pan-y" }}
+          onTouchStart={onSwipeStart}
+          onTouchEnd={onSwipeEnd}
+        >
           {position ? (
             <Board
               size={game!.boardSize}
