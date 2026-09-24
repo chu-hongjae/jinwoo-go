@@ -29,6 +29,12 @@ export default function App() {
     }
   };
 
+  // 상세 화면에서 상단 메뉴를 누르면 해당 모드 목록으로 이동
+  const switchMode = (m: Mode) => {
+    setMode(m);
+    if (selected) closeKifu();
+  };
+
   useEffect(() => {
     const onHash = () => {
       const m = window.location.hash.match(/^#\/kifu\/(.+)$/);
@@ -69,19 +75,19 @@ export default function App() {
       <div className="mode-tabs">
         <button
           className={`mode-tab ${mode === "kyu" ? "active" : ""}`}
-          onClick={() => setMode("kyu")}
+          onClick={() => switchMode("kyu")}
         >
           급수 기보 (10급~1급)
         </button>
         <button
           className={`mode-tab ${mode === "pro" ? "active" : ""}`}
-          onClick={() => setMode("pro")}
+          onClick={() => switchMode("pro")}
         >
           프로 기보 (신진서·이세돌·이창호·조훈현)
         </button>
         <button
           className={`mode-tab ${mode === "live" ? "active" : ""}`}
-          onClick={() => setMode("live")}
+          onClick={() => switchMode("live")}
         >
           실시간 검색 (OGS)
         </button>
