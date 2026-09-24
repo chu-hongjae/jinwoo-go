@@ -90,6 +90,36 @@ body {
   font-size: 14px;
 }
 
+/* ── 모드 탭 (급수/프로) ─────────────── */
+.mode-tabs {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.mode-tab {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mode-tab:hover {
+  border-color: var(--accent);
+}
+
+.mode-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 /* ── 급수 탭 ─────────────────────────── */
 .tabs {
   display: flex;
