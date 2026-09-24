@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 73465776,
+    "kyu": 10,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2025-03-19",
+    "black": {
+      "name": "mxznev",
+      "kyu": 10
+    },
+    "white": {
+      "name": "PSUKEI",
+      "kyu": 9
+    },
+    "file": "10k\\game-73465776.sgf"
+  },
+  {
+    "id": 73525440,
+    "kyu": 10,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2025-03-21",
+    "black": {
+      "name": "mxznev",
+      "kyu": 10
+    },
+    "white": {
+      "name": "Salix71",
+      "kyu": 9
+    },
+    "file": "10k\\game-73525440.sgf"
+  },
+  {
+    "id": 74514444,
+    "kyu": 10,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "45.5 points",
+    "winner": "W",
+    "ended": "2025-04-21",
+    "black": {
+      "name": "WingsofMint",
+      "kyu": 10
+    },
+    "white": {
+      "name": "Bagdasaryanburger",
+      "kyu": 9
+    },
+    "file": "10k\\game-74514444.sgf"
+  },
+  {
+    "id": 74588149,
+    "kyu": 10,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2025-04-23",
+    "black": {
+      "name": "WingsofMint",
+      "kyu": 10
+    },
+    "white": {
+      "name": "ArmenԾ",
+      "kyu": 9
+    },
+    "file": "10k\\game-74588149.sgf"
+  },
+  {
+    "id": 77931722,
+    "kyu": 10,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "22.5 points",
+    "winner": "W",
+    "ended": "2025-08-03",
+    "black": {
+      "name": "the Go comrade",
+      "kyu": 9
+    },
+    "white": {
+      "name": "nastushaenot",
+      "kyu": 10
+    },
+    "file": "10k\\game-77931722.sgf"
+  },
+  {
+    "id": 78002157,
+    "kyu": 10,
+    "handicap": 1,
+    "komi": "0.50",
+    "outcome": "23.5 points",
+    "winner": "B",
+    "ended": "2025-08-05",
+    "black": {
+      "name": "Veit_",
+      "kyu": 10
+    },
+    "white": {
+      "name": "JacobCS",
+      "kyu": 9
+    },
+    "file": "10k\\game-78002157.sgf"
+  },
+  {
+    "id": 61909289,
+    "kyu": 9,
+    "handicap": 0,
+    "komi": "7.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-02-25",
+    "black": {
+      "name": "Deutzia",
+      "kyu": 10
+    },
+    "white": {
+      "name": "goshz",
+      "kyu": 8
+    },
+    "file": "9k\\game-61909289.sgf"
+  },
+  {
+    "id": 61910832,
+    "kyu": 9,
+    "handicap": 0,
+    "komi": "7.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-02-25",
+    "black": {
+      "name": "Deutzia",
+      "kyu": 10
+    },
+    "white": {
+      "name": "goshz",
+      "kyu": 8
+    },
+    "file": "9k\\game-61910832.sgf"
+  },
+  {
+    "id": 61910950,
+    "kyu": 9,
+    "handicap": 0,
+    "komi": "7.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-02-25",
+    "black": {
+      "name": "Deutzia",
+      "kyu": 10
+    },
+    "white": {
+      "name": "goshz",
+      "kyu": 8
+    },
+    "file": "9k\\game-61910950.sgf"
+  },
+  {
+    "id": 62044420,
+    "kyu": 9,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Timeout",
+    "winner": "B",
+    "ended": "2024-03-28",
+    "black": {
+      "name": "Latin Badugui",
+      "kyu": 10
+    },
+    "white": {
+      "name": "GoPro19",
+      "kyu": 7
+    },
+    "file": "9k\\game-62044420.sgf"
+  },
+  {
+    "id": 69358656,
+    "kyu": 9,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-11-17",
+    "black": {
+      "name": "deleted-3b9f2159-d39e-46e3-8f71-f5cd4b7ccc84",
+      "kyu": 9
+    },
+    "white": {
+      "name": "Latin Badugui",
+      "kyu": 10
+    },
+    "file": "9k\\game-69358656.sgf"
+  },
+  {
+    "id": 85204133,
+    "kyu": 9,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-04-09",
+    "black": {
+      "name": "oktaluptus",
+      "kyu": 10
+    },
+    "white": {
+      "name": "Pedepano",
+      "kyu": 8
+    },
+    "file": "9k\\game-85204133.sgf"
+  },
+  {
+    "id": 62737861,
+    "kyu": 8,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-04-17",
+    "black": {
+      "name": "Latin Badugui",
+      "kyu": 10
+    },
+    "white": {
+      "name": "Verrall",
+      "kyu": 7
+    },
+    "file": "8k\\game-62737861.sgf"
+  },
+  {
+    "id": 69318583,
+    "kyu": 8,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "91.5 points",
+    "winner": "B",
+    "ended": "2024-11-07",
+    "black": {
+      "name": "Jayden K",
+      "kyu": 9
+    },
+    "white": {
+      "name": "Simenzo",
+      "kyu": 8
+    },
+    "file": "8k\\game-69318583.sgf"
+  },
+  {
+    "id": 81907508,
+    "kyu": 8,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2025-12-05",
+    "black": {
+      "name": "Tigremadera",
+      "kyu": 10
+    },
+    "white": {
+      "name": "B站CRBW",
+      "kyu": 6
+    },
+    "file": "8k\\game-81907508.sgf"
+  },
+  {
+    "id": 84920110,
+    "kyu": 8,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2026-03-09",
+    "black": {
+      "name": "the Go comrade",
+      "kyu": 9
+    },
+    "white": {
+      "name": "pardun",
+      "kyu": 8
+    },
+    "file": "8k\\game-84920110.sgf"
+  },
+  {
+    "id": 84920135,
+    "kyu": 8,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-03-09",
+    "black": {
+      "name": "the Go comrade",
+      "kyu": 9
+    },
+    "white": {
+      "name": "pardun",
+      "kyu": 8
+    },
+    "file": "8k\\game-84920135.sgf"
+  },
+  {
+    "id": 85204115,
+    "kyu": 8,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2026-04-09",
+    "black": {
+      "name": "axilolixa",
+      "kyu": 8
+    },
+    "white": {
+      "name": "Pedepano",
+      "kyu": 8
+    },
+    "file": "8k\\game-85204115.sgf"
+  },
+  {
+    "id": 61874830,
+    "kyu": 7,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-06-02",
+    "black": {
+      "name": "audra",
+      "kyu": 7
+    },
+    "white": {
+      "name": "Y.Ima-san",
+      "kyu": 6
+    },
+    "file": "7k\\game-61874830.sgf"
+  },
+  {
+    "id": 61945004,
+    "kyu": 7,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "6.5 points",
+    "winner": "B",
+    "ended": "2024-02-26",
+    "black": {
+      "name": "Aregen",
+      "kyu": 8
+    },
+    "white": {
+      "name": "DavidGale2",
+      "kyu": 7
+    },
+    "file": "7k\\game-61945004.sgf"
+  },
+  {
+    "id": 61945517,
+    "kyu": 7,
+    "handicap": 1,
+    "komi": "0.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-02-26",
+    "black": {
+      "name": "许江涛许志安",
+      "kyu": 7
+    },
+    "white": {
+      "name": "Aregen",
+      "kyu": 8
+    },
+    "file": "7k\\game-61945517.sgf"
+  },
+  {
+    "id": 61952617,
+    "kyu": 7,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-02-26",
+    "black": {
+      "name": "vegveg",
+      "kyu": 7
+    },
+    "white": {
+      "name": "Aregen",
+      "kyu": 8
+    },
+    "file": "7k\\game-61952617.sgf"
+  },
+  {
+    "id": 68917699,
+    "kyu": 7,
+    "handicap": 1,
+    "komi": "0.50",
+    "outcome": "11.5 points",
+    "winner": "W",
+    "ended": "2024-10-24",
+    "black": {
+      "name": "Pagog0",
+      "kyu": 5
+    },
+    "white": {
+      "name": "Chesha",
+      "kyu": 9
+    },
+    "file": "7k\\game-68917699.sgf"
+  },
+  {
+    "id": 85335660,
+    "kyu": 7,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2026-04-09",
+    "black": {
+      "name": "Pedepano",
+      "kyu": 8
+    },
+    "white": {
+      "name": "aurelito",
+      "kyu": 5
+    },
+    "file": "7k\\game-85335660.sgf"
+  },
+  {
+    "id": 61874848,
+    "kyu": 6,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-05-15",
+    "black": {
+      "name": "nukazuke",
+      "kyu": 6
+    },
+    "white": {
+      "name": "Y.Ima-san",
+      "kyu": 6
+    },
+    "file": "6k\\game-61874848.sgf"
+  },
+  {
+    "id": 61881133,
+    "kyu": 6,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "3.5 points",
+    "winner": "W",
+    "ended": "2024-03-21",
+    "black": {
+      "name": "ShinJinCEO",
+      "kyu": 9
+    },
+    "white": {
+      "name": "Lazy Teyong",
+      "kyu": 4
+    },
+    "file": "6k\\game-61881133.sgf"
+  },
+  {
+    "id": 61881134,
+    "kyu": 6,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-03-07",
+    "black": {
+      "name": "VamosBaduk",
+      "kyu": 7
+    },
+    "white": {
+      "name": "Lazy Teyong",
+      "kyu": 4
+    },
+    "file": "6k\\game-61881134.sgf"
+  },
+  {
+    "id": 61906777,
+    "kyu": 6,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "5.5 points",
+    "winner": "W",
+    "ended": "2024-02-25",
+    "black": {
+      "name": "Michaeltiger",
+      "kyu": 7
+    },
+    "white": {
+      "name": "Plaugo",
+      "kyu": 5
+    },
+    "file": "6k\\game-61906777.sgf"
+  },
+  {
+    "id": 62012065,
+    "kyu": 6,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Timeout",
+    "winner": "W",
+    "ended": "2024-05-12",
+    "black": {
+      "name": "fairy_fiend",
+      "kyu": 9
+    },
+    "white": {
+      "name": "welshgoplayer",
+      "kyu": 3
+    },
+    "file": "6k\\game-62012065.sgf"
+  },
+  {
+    "id": 62012076,
+    "kyu": 6,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-04-22",
+    "black": {
+      "name": "welshgoplayer",
+      "kyu": 3
+    },
+    "white": {
+      "name": "Carel",
+      "kyu": 9
+    },
+    "file": "6k\\game-62012076.sgf"
+  },
+  {
+    "id": 58517163,
+    "kyu": 5,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "23.5 points",
+    "winner": "W",
+    "ended": "2024-02-29",
+    "black": {
+      "name": "somighten",
+      "kyu": 4
+    },
+    "white": {
+      "name": "crazycupcake80",
+      "kyu": 6
+    },
+    "file": "5k\\game-58517163.sgf"
+  },
+  {
+    "id": 61299284,
+    "kyu": 5,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Timeout",
+    "winner": "W",
+    "ended": "2024-03-21",
+    "black": {
+      "name": "edwie",
+      "kyu": 5
+    },
+    "white": {
+      "name": "somighten",
+      "kyu": 4
+    },
+    "file": "5k\\game-61299284.sgf"
+  },
+  {
+    "id": 62047950,
+    "kyu": 5,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "19.5 points",
+    "winner": "B",
+    "ended": "2024-05-10",
+    "black": {
+      "name": "somighten",
+      "kyu": 4
+    },
+    "white": {
+      "name": "crazycupcake80",
+      "kyu": 6
+    },
+    "file": "5k\\game-62047950.sgf"
+  },
+  {
+    "id": 62262280,
+    "kyu": 5,
+    "handicap": 0,
+    "komi": "7.00",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-03-07",
+    "black": {
+      "name": "dol",
+      "kyu": 4
+    },
+    "white": {
+      "name": "HanseGo23",
+      "kyu": 6
+    },
+    "file": "5k\\game-62262280.sgf"
+  },
+  {
+    "id": 62265020,
+    "kyu": 5,
+    "handicap": 2,
+    "komi": "0.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-03-27",
+    "black": {
+      "name": "alexmez",
+      "kyu": 5
+    },
+    "white": {
+      "name": "smith0108",
+      "kyu": 5
+    },
+    "file": "5k\\game-62265020.sgf"
+  },
+  {
+    "id": 62847173,
+    "kyu": 5,
+    "handicap": 2,
+    "komi": "0.50",
+    "outcome": "5.5 points",
+    "winner": "B",
+    "ended": "2024-04-24",
+    "black": {
+      "name": "alexmez",
+      "kyu": 5
+    },
+    "white": {
+      "name": "smith0108",
+      "kyu": 5
+    },
+    "file": "5k\\game-62847173.sgf"
+  },
+  {
+    "id": 31622391,
+    "kyu": 4,
+    "handicap": 0,
+    "komi": "7.50",
+    "outcome": "164.5 points",
+    "winner": "W",
+    "ended": "2021-03-02",
+    "black": {
+      "name": "vallo.silvester",
+      "kyu": 6
+    },
+    "white": {
+      "name": "Chen Hanyu",
+      "kyu": 2
+    },
+    "file": "4k\\game-31622391.sgf"
+  },
+  {
+    "id": 39708361,
+    "kyu": 4,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2021-12-29",
+    "black": {
+      "name": "LeonLiu",
+      "kyu": 1
+    },
+    "white": {
+      "name": "jbuddha",
+      "kyu": 7
+    },
+    "file": "4k\\game-39708361.sgf"
+  },
+  {
+    "id": 60247211,
+    "kyu": 4,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "28.5 points",
+    "winner": "B",
+    "ended": "2024-02-27",
+    "black": {
+      "name": "dol",
+      "kyu": 4
+    },
+    "white": {
+      "name": "aokun",
+      "kyu": 4
+    },
+    "file": "4k\\game-60247211.sgf"
+  },
+  {
+    "id": 60308166,
+    "kyu": 4,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-03-31",
+    "black": {
+      "name": "EvAderth",
+      "kyu": 4
+    },
+    "white": {
+      "name": "alexmez",
+      "kyu": 5
+    },
+    "file": "4k\\game-60308166.sgf"
+  },
+  {
+    "id": 61715310,
+    "kyu": 4,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "30.5 points",
+    "winner": "B",
+    "ended": "2024-03-04",
+    "black": {
+      "name": "dol",
+      "kyu": 4
+    },
+    "white": {
+      "name": "dotquist",
+      "kyu": 5
+    },
+    "file": "4k\\game-61715310.sgf"
+  },
+  {
+    "id": 62235693,
+    "kyu": 4,
+    "handicap": 0,
+    "komi": "7.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-03-27",
+    "black": {
+      "name": "nukazuke",
+      "kyu": 6
+    },
+    "white": {
+      "name": "namfish chen",
+      "kyu": 1
+    },
+    "file": "4k\\game-62235693.sgf"
+  },
+  {
+    "id": 29847173,
+    "kyu": 3,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2021-01-06",
+    "black": {
+      "name": "husbanhou",
+      "kyu": 5
+    },
+    "white": {
+      "name": "htank",
+      "kyu": 1
+    },
+    "file": "3k\\game-29847173.sgf"
+  },
+  {
+    "id": 29852453,
+    "kyu": 3,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2021-01-06",
+    "black": {
+      "name": "toobi7007",
+      "kyu": 4
+    },
+    "white": {
+      "name": "zang5450",
+      "kyu": 2
+    },
+    "file": "3k\\game-29852453.sgf"
+  },
+  {
+    "id": 44899863,
+    "kyu": 3,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2022-06-28",
+    "black": {
+      "name": "Oumuamua",
+      "kyu": 1
+    },
+    "white": {
+      "name": "Sariona",
+      "kyu": 4
+    },
+    "file": "3k\\game-44899863.sgf"
+  },
+  {
+    "id": 61864790,
+    "kyu": 3,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-03-12",
+    "black": {
+      "name": "xyper70",
+      "kyu": 2
+    },
+    "white": {
+      "name": "afikol",
+      "kyu": 4
+    },
+    "file": "3k\\game-61864790.sgf"
+  },
+  {
+    "id": 61929917,
+    "kyu": 3,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-03-22",
+    "black": {
+      "name": "daromorado",
+      "kyu": 1
+    },
+    "white": {
+      "name": "mart900",
+      "kyu": 4
+    },
+    "file": "3k\\game-61929917.sgf"
+  },
+  {
+    "id": 62358674,
+    "kyu": 3,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2024-03-27",
+    "black": {
+      "name": "mart900",
+      "kyu": 4
+    },
+    "white": {
+      "name": "namfish chen",
+      "kyu": 1
+    },
+    "file": "3k\\game-62358674.sgf"
+  },
+  {
+    "id": 29816669,
+    "kyu": 2,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2021-01-05",
+    "black": {
+      "name": "deleted-3aa6f777-e2c3-4fc5-b8c0-17a225e58d76",
+      "kyu": 3
+    },
+    "white": {
+      "name": "泥水手",
+      "kyu": 1
+    },
+    "file": "2k\\game-29816669.sgf"
+  },
+  {
+    "id": 29817791,
+    "kyu": 2,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2021-01-05",
+    "black": {
+      "name": "YungEnChi",
+      "kyu": 3
+    },
+    "white": {
+      "name": "泥水手",
+      "kyu": 1
+    },
+    "file": "2k\\game-29817791.sgf"
+  },
+  {
+    "id": 29847908,
+    "kyu": 2,
+    "handicap": 2,
+    "komi": "0.50",
+    "outcome": "36.5 points",
+    "winner": "W",
+    "ended": "2021-01-06",
+    "black": {
+      "name": "htank",
+      "kyu": 1
+    },
+    "white": {
+      "name": "mike737au",
+      "kyu": 3
+    },
+    "file": "2k\\game-29847908.sgf"
+  },
+  {
+    "id": 30440855,
+    "kyu": 2,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Timeout",
+    "winner": "W",
+    "ended": "2021-01-25",
+    "black": {
+      "name": "zang5450",
+      "kyu": 2
+    },
+    "white": {
+      "name": "jsk2789",
+      "kyu": 3
+    },
+    "file": "2k\\game-30440855.sgf"
+  },
+  {
+    "id": 31084990,
+    "kyu": 2,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Timeout",
+    "winner": "B",
+    "ended": "2021-02-14",
+    "black": {
+      "name": "zang5450",
+      "kyu": 2
+    },
+    "white": {
+      "name": "Tâm VTCLR",
+      "kyu": 3
+    },
+    "file": "2k\\game-31084990.sgf"
+  },
+  {
+    "id": 61940033,
+    "kyu": 2,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-03-02",
+    "black": {
+      "name": "daromorado",
+      "kyu": 1
+    },
+    "white": {
+      "name": "bensontsai1959",
+      "kyu": 3
+    },
+    "file": "2k\\game-61940033.sgf"
+  },
+  {
+    "id": 29816885,
+    "kyu": 1,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2021-01-05",
+    "black": {
+      "name": "泥水手",
+      "kyu": 1
+    },
+    "white": {
+      "name": "koala106",
+      "kyu": 1
+    },
+    "file": "1k\\game-29816885.sgf"
+  },
+  {
+    "id": 31577235,
+    "kyu": 1,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Timeout",
+    "winner": "W",
+    "ended": "2021-03-01",
+    "black": {
+      "name": "로지컬브레인",
+      "kyu": 1
+    },
+    "white": {
+      "name": "nspk",
+      "kyu": 2
+    },
+    "file": "1k\\game-31577235.sgf"
+  },
+  {
+    "id": 32277138,
+    "kyu": 1,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "Resignation",
+    "winner": "W",
+    "ended": "2021-03-24",
+    "black": {
+      "name": "htank",
+      "kyu": 1
+    },
+    "white": {
+      "name": "yoshiyasu5",
+      "kyu": 2
+    },
+    "file": "1k\\game-32277138.sgf"
+  },
+  {
+    "id": 34069088,
+    "kyu": 1,
+    "handicap": 0,
+    "komi": "7.50",
+    "outcome": "Timeout",
+    "winner": "B",
+    "ended": "2021-05-28",
+    "black": {
+      "name": "vitorbr",
+      "kyu": 2
+    },
+    "white": {
+      "name": "로지컬브레인",
+      "kyu": 1
+    },
+    "file": "1k\\game-34069088.sgf"
+  },
+  {
+    "id": 61649063,
+    "kyu": 1,
+    "handicap": 0,
+    "komi": "6.50",
+    "outcome": "0.5 points",
+    "winner": "W",
+    "ended": "2024-05-01",
+    "black": {
+      "name": "KunKaiChen",
+      "kyu": 2
+    },
+    "white": {
+      "name": "namfish chen",
+      "kyu": 1
+    },
+    "file": "1k\\game-61649063.sgf"
+  },
+  {
+    "id": 65240116,
+    "kyu": 1,
+    "handicap": 0,
+    "komi": "7.50",
+    "outcome": "Resignation",
+    "winner": "B",
+    "ended": "2024-06-30",
+    "black": {
+      "name": "daromorado",
+      "kyu": 1
+    },
+    "white": {
+      "name": "Jusigo",
+      "kyu": 1
+    },
+    "file": "1k\\game-65240116.sgf"
+  }
+]
