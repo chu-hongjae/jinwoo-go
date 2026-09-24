@@ -7,8 +7,8 @@
   /* 다크가 본모(本貌)다 — 포르쉐의 밤 */
   --bg: #0a0a0a;
   --surface: #161616;
-  --text: #f2f2f2;
-  --text-dim: #9d9d9d;
+  --text: #f5f5f5;
+  --text-dim: #b3b3b3;
   --accent: #e0202f;
   --accent-hover: #ff3b47;
   --accent-soft: rgb(224 32 47 / 0.08);
@@ -18,7 +18,7 @@
   /* 바둑판 — 기능은 감성보다 우선한다 */
   --board-wood: #b98d3f;
   --board-line: #2e2412;
-  --board-coord: #c8b47e;
+  --board-coord: #e8d9a8;
   --stone-white-edge: #8f8b83;
   --num-on-black: #ffffff;
   --num-on-white: #111111;
@@ -67,41 +67,30 @@ body {
   font-feature-settings: "tnum";
 }
 
-/* ── 무대 조명 — 배경도 재질이어야 한다 ── */
+/* ── 무대 조명 — 배경도 재질이어야 한다 ──
+   실제 화면에서 봐야 보이는 강도로:
+   상단 대형 스포트라이트 · 중앙 붉은 앰비언트 · 아래쪽 붉은 반사광 · 비네트 */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  /* 다크: 카본 — 상단 스튜디오 라이트와 하단 페이드 */
   background:
-    radial-gradient(1100px 520px at 50% -8%, rgb(255 255 255 / 0.06), transparent 65%),
-    linear-gradient(180deg, #121212 0%, #0a0a0a 100%);
-}
-
-/* 배경 자체가 거대한 바둑판이 된다 — 화점(星)을 연상시키는 점 그리드 */
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background-image: radial-gradient(rgb(255 255 255 / 0.05) 1px, transparent 1.6px);
-  background-size: 46px 46px;
-  -webkit-mask-image: radial-gradient(ellipse 85% 60% at 50% 18%, #000 0%, transparent 72%);
-  mask-image: radial-gradient(ellipse 85% 60% at 50% 18%, #000 0%, transparent 72%);
+    radial-gradient(ellipse at center, transparent 55%, rgb(0 0 0 / 0.55) 100%),
+    radial-gradient(900px 460px at 50% -10%, rgb(255 255 255 / 0.22), transparent 60%),
+    radial-gradient(900px 600px at 50% 45%, rgb(224 32 47 / 0.14), transparent 62%),
+    radial-gradient(1400px 500px at 50% 115%, rgb(224 32 47 / 0.12), transparent 70%),
+    linear-gradient(180deg, #181818 0%, #0a0a0a 100%);
 }
 
 :root[data-theme="light"] body::before {
   /* 라이트: 스튜디오 화이트 */
   background:
-    radial-gradient(1100px 520px at 50% -8%, rgb(255 255 255 / 0.9), transparent 65%),
+    radial-gradient(ellipse at center, transparent 60%, rgb(0 0 0 / 0.06) 100%),
+    radial-gradient(900px 460px at 50% -10%, rgb(255 255 255 / 0.9), transparent 62%),
+    radial-gradient(900px 600px at 50% 45%, rgb(213 0 28 / 0.06), transparent 62%),
     linear-gradient(180deg, #fbfbfb 0%, #eeeeee 100%);
-}
-
-:root[data-theme="light"] body::after {
-  background-image: radial-gradient(rgb(0 0 0 / 0.07) 1px, transparent 1.6px);
 }
 
 /* ── 상단 시그니처 라인 ─────────────── */
@@ -299,6 +288,7 @@ body::after {
   gap: 6px;
   flex-wrap: wrap;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .players em {
@@ -343,7 +333,7 @@ body::after {
 
 .meta {
   color: var(--text-dim);
-  font-size: 12px;
+  font-size: 13px;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.04em;
 }
