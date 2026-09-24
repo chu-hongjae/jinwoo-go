@@ -32,7 +32,7 @@ export async function fetchSgfForEntry(entry: KifuEntry): Promise<string> {
   return fetchSgf(entry.file);
 }
 
-/* ── OGS 실시간 API (CORS 허용됨: access-control-allow-origin: *) ── */
+/* ── 로컬 기보 데이터 (data/kifu/…/*.json) ── */
 
 const ogsApi = axios.create({ baseURL: "https://online-go.com/api/v1" });
 
