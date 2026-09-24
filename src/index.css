@@ -9,9 +9,9 @@
   --surface: #161616;
   --text: #f5f5f5;
   --text-dim: #b3b3b3;
-  --accent: #e0202f;
-  --accent-hover: #ff3b47;
-  --accent-soft: rgb(224 32 47 / 0.08);
+  --accent: #d51f33;
+  --accent-hover: #f03548;
+  --accent-soft: rgb(213 31 51 / 0.1);
   --border: #2a2a2a;
   --border-strong: #f2f2f2;
 
@@ -67,9 +67,9 @@ body {
   font-feature-settings: "tnum";
 }
 
-/* ── 무대 조명 — 배경도 재질이어야 한다 ──
-   실제 화면에서 봐야 보이는 강도로:
-   상단 대형 스포트라이트 · 중앙 붉은 앰비언트 · 아래쪽 붉은 반사광 · 비네트 */
+/* ── 무대 조명 — 벨벳 레드 ─────────────
+   벨벳은 밝지 않다. 빛이 천에 스며들어
+   가장자리를 따라 꺼져가는 깊이감으로 표현한다. */
 body::before {
   content: "";
   position: fixed;
@@ -77,11 +77,42 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(ellipse at center, transparent 62%, rgb(0 0 0 / 0.5) 100%),
-    radial-gradient(900px 460px at 50% -10%, rgb(255 255 255 / 0.22), transparent 60%),
-    radial-gradient(1500px 1100px at 50% 45%, rgb(224 32 47 / 0.3), transparent 65%),
-    radial-gradient(2000px 800px at 50% 115%, rgb(224 32 47 / 0.28), transparent 75%),
-    linear-gradient(180deg, #181818 0%, #0a0a0a 100%);
+    /* 5) 크레푸스큘러 레이스 — 비 온 뒤 하늘로 빛줄기가 내려온다
+       밝은 줄기와 가느다란 줄기가 번갈아, 화면으로 갈수록 넓어지며 흐려진다 */
+    conic-gradient(
+      from 0deg at 50% -8%,
+      transparent 0deg,
+      /* transparent 148deg,
+      rgb(255 240 240 / 0.07) 151deg,
+      rgb(255 240 240 / 0.14) 155deg,
+      rgb(255 240 240 / 0.07) 159deg,
+      transparent 163deg,
+      rgb(255 240 240 / 0.04) 166deg,
+      rgb(255 240 240 / 0.09) 169deg,
+      rgb(255 240 240 / 0.04) 172deg,
+      transparent 176deg,
+      rgb(255 240 240 / 0.06) 179deg,
+      rgb(255 240 240 / 0.12) 182deg,
+      rgb(255 240 240 / 0.06) 185deg,
+      transparent 189deg,
+      rgb(255 240 240 / 0.04) 192deg,
+      rgb(255 240 240 / 0.08) 195deg,
+      rgb(255 240 240 / 0.04) 198deg,
+      transparent 202deg,
+      rgb(255 240 240 / 0.07) 205deg,
+      rgb(255 240 240 / 0.13) 209deg,
+      rgb(255 240 240 / 0.07) 213deg, */
+      transparent 216deg,
+      transparent 360deg
+    ),
+    /* 4) 광원 글로우 — 구름 사이로 터지는 빛 */
+    radial-gradient(760px 320px at 50% -4%, rgb(255 240 240 / 0.22), transparent 72%),
+    /* 1) 벨벳 베드 — 화면 전체를 감싸는 짙은 와인색 */
+    linear-gradient(180deg, #171114 0%, #120a0d 45%, #0a0708 100%),
+    /* 2) 스며드는 광택 — 시선높이에 진하게, 가장자리에서 꺼진다 */
+    radial-gradient(1700px 1000px at 50% 38%, rgb(142 20 42 / 0.55), transparent 68%),
+    /* 3) 하단 딥 샤도 — 천 바닥의 그림자 */
+    radial-gradient(2000px 700px at 50% 120%, rgb(84 12 26 / 0.5), transparent 75%);
 }
 
 :root[data-theme="light"] body::before {
@@ -89,7 +120,7 @@ body::before {
   background:
     radial-gradient(ellipse at center, transparent 60%, rgb(0 0 0 / 0.06) 100%),
     radial-gradient(900px 460px at 50% -10%, rgb(255 255 255 / 0.9), transparent 62%),
-    radial-gradient(900px 600px at 50% 45%, rgb(213 0 28 / 0.06), transparent 62%),
+    radial-gradient(1600px 1100px at 50% 40%, rgb(213 0 28 / 0.10), transparent 65%),
     linear-gradient(180deg, #fbfbfb 0%, #eeeeee 100%);
 }
 
