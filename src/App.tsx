@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import type { KifuEntry } from "./types";
+import { fetchKifuIndex, fetchProIndex } from "./lib/api";
 import { KifuList } from "./components/KifuList";
 import { ProKifuList } from "./components/ProKifuList";
+import { LiveSearch } from "./components/LiveSearch";
 import { Viewer } from "./components/Viewer";
 
-const base = import.meta.env.BASE_URL;
-
-type Mode = "kyu" | "pro";
+type Mode = "kyu" | "pro" | "live";
 
 export default function App() {
   const [entries, setEntries] = useState<KifuEntry[] | null>(null);
@@ -15,14 +15,9 @@ export default function App() {
   const [mode, setMode] = useState<Mode>("kyu");
 
   useEffect(() => {
-    const fetchJson = (url: string) =>
-      fetch(url).then((r) => (r.ok ? r.json() : []));
-    Promise.all([
-      fetchJson(`${base}kifu/index.json`),
-      fetchJson(`${base}kifu/pro.json`),
-    ])
+    Promise.all([fetchKifuIndex(), fetchProIndex()])
       .then(([kyuData, proData]) => {
-        setEntries([...(proData as KifuEntry[]), ...(kyuData as KifuEntry[])]);
+        setEntries([...proData, ...kyuData]);
       })
       .catch((e) => setError(`기보 목록을 불러올 수 없습니다: ${e.message}`));
   }, []);
@@ -50,6 +45,12 @@ export default function App() {
         >
           프로 기보 (신진서·이세돌·이창호·조훈현)
         </button>
+        <button
+          className={`mode-tab ${mode === "live" ? "active" : ""}`}
+          onClick={() => setMode("live")}
+        >
+          실시간 검색 (OGS)
+        </button>
       </div>
 
       <main>
@@ -60,8 +61,10 @@ export default function App() {
             <Viewer key={selected.id} entry={selected} onBack={() => setSelected(null)} />
           ) : mode === "kyu" ? (
             kyuEntries && <KifuList entries={kyuEntries} onOpen={setSelected} />
-          ) : (
+          ) : mode === "pro" ? (
             <ProKifuList entries={proEntries ?? []} onOpen={setSelected} />
+          ) : (
+            <LiveSearch onOpen={setSelected} />
           ))}
       </main>
 

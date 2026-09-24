@@ -11,6 +11,7 @@ export interface KifuEntry {
   kyu?: number; // 급수 기보일 때 1~10
   featured?: string; // 프로 기보: 주인공 선수 (예: "이세돌")
   file: string; // "10k/game-12345.sgf"
+  sgfUrl?: string; // 실시간 검색 결과: OGS API SGF 경로 (file 대신 사용)
   handicap: number;
   komi: number | null;
   outcome: string; // "Resignation", "Timeout", "45.5 points" ...

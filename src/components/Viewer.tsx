@@ -2,9 +2,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { KifuEntry } from "../types";
 import { parseGame } from "../lib/sgf";
 import { positionAfter } from "../lib/board";
+import { fetchSgfForEntry } from "../lib/api";
 import { Board } from "./Board";
-
-const base = import.meta.env.BASE_URL;
 
 function fmtOutcome(entry: KifuEntry): string {
   const side = entry.winner === "B" ? "흑" : "백";
@@ -12,6 +11,7 @@ function fmtOutcome(entry: KifuEntry): string {
     Resignation: "불계승",
     Timeout: "시간승",
     "Refunding All Games": "무효",
+    Forfeit: "몰수승",
   };
   const m = entry.outcome.match(/^([\d.]+) points$/);
   const howText = m ? `${m[1]}점 승` : (how[entry.outcome] ?? entry.outcome);
@@ -34,11 +34,7 @@ export function Viewer({ entry, onBack }: ViewerProps) {
 
   useEffect(() => {
     let cancelled = false;
-    fetch(`${base}kifu/${entry.file}`)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.text();
-      })
+    fetchSgfForEntry(entry)
       .then((text) => {
         if (!cancelled) setSgfSrc(text);
       })

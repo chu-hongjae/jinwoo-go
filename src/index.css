@@ -120,6 +120,31 @@ body {
   color: #fff;
 }
 
+/* ── 실시간 검색 ─────────────────────── */
+.live-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 12px 0 18px;
+}
+
+.live-controls select {
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.live-progress {
+  color: var(--text-dim);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
 /* ── 급수 탭 ─────────────────────────── */
 .tabs {
   display: flex;
