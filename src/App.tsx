@@ -14,6 +14,40 @@ export default function App() {
   const [selected, setSelected] = useState<KifuEntry | null>(null);
   const [mode, setMode] = useState<Mode>("kyu");
 
+  // 브라우저 뒤로가기 버튼도 목록으로 돌아오게 — hash에 기보 id를 남긴다
+  const openKifu = (e: KifuEntry) => {
+    setSelected(e);
+    const hash = `#/kifu/${e.id}`;
+    if (window.location.hash !== hash) window.location.hash = hash;
+  };
+
+  const closeKifu = () => {
+    if (window.location.hash) {
+      window.history.back(); // hashchange로 상태가 정리된다
+    } else {
+      setSelected(null);
+    }
+  };
+
+  useEffect(() => {
+    const onHash = () => {
+      const m = window.location.hash.match(/^#\/kifu\/(.+)$/);
+      if (!m) {
+        setSelected(null);
+        return;
+      }
+      // id는 JSON에서 숫자로 올 수 있으니 문자열로 통일해 비교
+      const id = decodeURIComponent(m[1]);
+      setSelected((cur) =>
+        cur && String(cur.id) === id
+          ? cur
+          : (entries?.find((e) => String(e.id) === id) ?? null)
+      );
+    };
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
+  }, [entries]);
+
   useEffect(() => {
     Promise.all([fetchKifuIndex(), fetchProIndex()])
       .then(([kyuData, proData]) => {
@@ -58,13 +92,13 @@ export default function App() {
         {!error && entries == null && <p className="loading">불러오는 중…</p>}
         {entries != null &&
           (selected ? (
-            <Viewer key={selected.id} entry={selected} onBack={() => setSelected(null)} />
+            <Viewer key={selected.id} entry={selected} onBack={closeKifu} />
           ) : mode === "kyu" ? (
-            kyuEntries && <KifuList entries={kyuEntries} onOpen={setSelected} />
+            kyuEntries && <KifuList entries={kyuEntries} onOpen={openKifu} />
           ) : mode === "pro" ? (
-            <ProKifuList entries={proEntries ?? []} onOpen={setSelected} />
+            <ProKifuList entries={proEntries ?? []} onOpen={openKifu} />
           ) : (
-            <LiveSearch onOpen={setSelected} />
+            <LiveSearch onOpen={openKifu} />
           ))}
       </main>
 
