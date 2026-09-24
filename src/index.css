@@ -77,10 +77,10 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(ellipse at center, transparent 55%, rgb(0 0 0 / 0.55) 100%),
+    radial-gradient(ellipse at center, transparent 62%, rgb(0 0 0 / 0.5) 100%),
     radial-gradient(900px 460px at 50% -10%, rgb(255 255 255 / 0.22), transparent 60%),
-    radial-gradient(900px 600px at 50% 45%, rgb(224 32 47 / 0.14), transparent 62%),
-    radial-gradient(1400px 500px at 50% 115%, rgb(224 32 47 / 0.12), transparent 70%),
+    radial-gradient(1500px 1100px at 50% 45%, rgb(224 32 47 / 0.3), transparent 65%),
+    radial-gradient(2000px 800px at 50% 115%, rgb(224 32 47 / 0.28), transparent 75%),
     linear-gradient(180deg, #181818 0%, #0a0a0a 100%);
 }
 
